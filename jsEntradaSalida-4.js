@@ -5,11 +5,22 @@
 function mostrar()
 {
 	var nombre;
+
+	/*establezco variable*/
+
 	nombre = prompt ("su nombre");
-	elNombre.value=nombre;
-	
-	
+
+	/*tomo el dato por PROMPT y lo guardo en la variable*/
+
 	document.getElementById("elNombre").value=nombre;
+
+	/*tomo el dato de la variable y lo muestro con ID
+	PREGUNTAR SOBRE LO ULTIMO. */
+
+    
+	
+	
+
 
 	
 

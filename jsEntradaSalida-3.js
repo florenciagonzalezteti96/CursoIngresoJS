@@ -2,20 +2,14 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	elNombre.value="florencia";
-	//id = elNombre.value;
+	var nombre;
+	/*establezco la variable para guardar mi dato*/
 
-	//Alert (id); -->no muestra ventana
+	nombre=elNombre.value;
+	/*inserto un valor dentro de la variable*/
 
-	//2. document.getElementById ("elNombre");
-
-	//alert(elNombre); -->error [object HTMLInputElement]
-
-	document.getElementById ("elNombre");
-
-	alert(elNombre.value); //FUNCIONA.
-
-
+	alert (nombre);
+	/*doy salida a ese dato por medio de ALERT*/
 }
 
 
