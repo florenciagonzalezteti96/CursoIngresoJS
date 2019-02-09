@@ -1,17 +1,18 @@
 function mostrar()
 {
- var precio;
+	var precio;
  var descuento;
- var operacion;
- var operacionDos;
+ var precioFinal;
 
- var precio=prompt("Indicar precio");
- var descuento=prompt("Indicar descuento");
-
- operacion=(precio*descuento);
- operacionDos=(operacion/100);
+ precio=prompt("Ingrese precio");
+ descuento=prompt("Ingrese porcentaje de descuento");
  
+ precio=parseInt(precio);
+ descuento=parseInt(descuento);
 
- elPrecioFinal.value=operacionDos;
+ descuento=precio*descuento/100;
 
+ precioFinal=precio-descuento;
+
+ elPrecioFinal.value=precioFinal;
 }
