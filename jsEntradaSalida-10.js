@@ -4,22 +4,17 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	var sueldo; 
-  var descuento;
-  var result;
-  
-  sueldo=importe.value;
-  /*establezco valor de variable*/
-  
-  sueldo=parseInt(sueldo);
-  /*valor de variable a entero*/
+	var ingreso;
+	var descuento;
+	var result;
 
-  descuento=sueldo*25/100;
-  /*asigno un valor al descuento*/
-  
-  result=(sueldo-descuento);
-  /*aplico el desc al valor de variable importe*/
-  
-  resultado.value=result; 
-  /*muestro resultado con ID*/
+	ingreso=importe.value;
+	ingreso=parseInt(ingreso);
+
+	descuento=ingreso*25/100;
+
+	result=ingreso-descuento;
+
+	resultado.value=result;
+	
 }
