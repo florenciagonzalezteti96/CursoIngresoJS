@@ -5,69 +5,67 @@ C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
 function Sumar () 
 {
-	var primerPrecio;
-	var segundoPrecio;
-	var tercerPrecio;
+	var uno;
+	var dos;
+	var tres;
 	var sumar;
-	
 
-	primerPrecio=precioUno.value;
-	segundoPrecio=precioDos.value;
-	tercerPrecio=precioTres.value;
+	uno=precioUno.value;
+	dos=precioDos.value;
+	tres=precioTres.value;
 
-	primerPrecio=parseInt(primerPrecio);
-	segundoPrecio=parseInt(segundoPrecio);
-	tercerPrecio=parseInt(tercerPrecio);
+	uno=parseInt(uno);
+	dos=parseInt(dos);
+	tres=parseInt(tres);
 
-	sumar=(primerPrecio+segundoPrecio+tercerPrecio);
+	sumar=uno+dos+tres;
 
-	alert("El precio final es: "+ sumar);
+	alert("La suma total es de: "+ sumar);
+
 }
+
 function Promedio () 
 {
-	var primerPrecio;
-	var segundoPrecio;
-	var tercerPrecio;
-	
-	var promedio;
-	
+	var uno;
+	var dos;
+	var tres;
+	var prom;
 
-	primerPrecio=precioUno.value;
-	segundoPrecio=precioDos.value;
-	tercerPrecio=precioTres.value;
+	uno=precioUno.value;
+	dos=precioDos.value;
+	tres=precioTres.value;
 
-	primerPrecio=parseInt(primerPrecio);
-	segundoPrecio=parseInt(segundoPrecio);
-	tercerPrecio=parseInt(tercerPrecio);
+	uno=parseInt(uno);
+	dos=parseInt(dos);
+	tres=parseInt(tres);
 
-	promedio=(primerPrecio+segundoPrecio+tercerPrecio)/3;
+	prom=(uno+dos+tres)/3;
 
-	
-	alert("El promedio final es de: "+ promedio)
+	alert("El promedio total es de: "+ prom);
 }
+
 function PrecioFinal () 
 {
-	var primerPrecio;
-	var segundoPrecio;
-	var tercerPrecio;
+	var uno;
+	var dos;
+	var tres;
 	var sumar;
-	var precioFinal;
 	var iva;
+	var precioFinal;
 
-	primerPrecio=precioUno.value;
-	segundoPrecio=precioDos.value;
-	tercerPrecio=precioTres.value;
+	uno=precioUno.value;
+	dos=precioDos.value;
+	tres=precioTres.value;
 
-	primerPrecio=parseInt(primerPrecio);
-	segundoPrecio=parseInt(segundoPrecio);
-	tercerPrecio=parseInt(tercerPrecio);
-	iva=parseInt(iva);
+	uno=parseInt(uno);
+	dos=parseInt(dos);
+	tres=parseInt(tres);
 
-	sumar=(primerPrecio+segundoPrecio+tercerPrecio);
+	sumar=uno+dos+tres;
 
 	iva=sumar*21/100;
 
 	precioFinal=sumar+iva;
 
-	alert("El precio final es: "+ precioFinal);
-}	
+	alert("La suma total es de: "+ precioFinal);
+}
