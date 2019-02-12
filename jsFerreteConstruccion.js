@@ -3,7 +3,6 @@ A.	 mostrar la cantidad de alambre a comprar  si se ingresara el largo y el anch
 B.	mostrar la cantidad de alambre a comprar  si se ingresara el radio  de un terreno circular y se debe alambra con tres hilos de alambre.
 C.	Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de cal, debemos mostrar cuantas bolsas se necesitan de cada uno para las medidas que nos ingresen.
 */
-
 function Rectangulo () 
 {
 
@@ -20,7 +19,7 @@ function Rectangulo ()
 
 	//perimetro=(largo*2)+(ancho*2)*3;-->80
 
-	perimetro=(largo*ancho);
+	perimetro=(largo*2)+(ancho*2);
 
 	resultA=perimetro*3;
 
@@ -32,17 +31,22 @@ function Circulo ()
 
 	var radio;
 	var diametro;
+	var circunferencia;
 	var resultB;
 
 	radio=elRadio.value;
 
 	radio=parseInt(radio);
 
-	diametro=(radio*2)*3;
+	diametro=(radio*2);
+
+	circunferencia=diametro*3.14;
+
+	resultB=circunferencia*3;
 
 	//resultB=diametro*3; -->12
 
-	alert("La cantidad de alambre a comprar es: "+diametro);
+	alert("La cantidad de alambre a comprar es: "+resultB);
 	
 }
 
