@@ -21,11 +21,12 @@ function Rectangulo ()
 
 	perimetro=(largo*2)+(ancho*2);
 
-	resultA=perimetro*3;
+	resultA=perimetro/3;
 
 	alert("La cantidad de alambre a comprar es: "+ resultA);
 
 }
+
 function Circulo () 
 {
 
@@ -38,11 +39,9 @@ function Circulo ()
 
 	radio=parseInt(radio);
 
-	diametro=(radio*2);
+	circunferencia=2*3.14*radio;
 
-	circunferencia=diametro*3.14;
-
-	resultB=circunferencia*3;
+	resultB=circunferencia/3;
 
 	//resultB=diametro*3; -->12
 
@@ -56,7 +55,7 @@ function Materiales ()
 
 	var largo;
 	var ancho;
-	var perimetro;
+	var area;
 	var bolsaCemento;
 	var bolsaCal;
 
@@ -66,11 +65,11 @@ function Materiales ()
 	largo=parseInt(largo);
 	ancho=parseInt(ancho);
 
-	perimetro=(largo*ancho);
+	area=(largo*ancho);
 
-	bolsaCemento=perimetro*2;
+	bolsaCemento=area*2;
 
-	bolsaCal=perimetro*3;
+	bolsaCal=area*3;
 
 	alert("Necesitara "+bolsaCemento+" bolsas de cemento y "+bolsaCal+" bolsas de cal");
 

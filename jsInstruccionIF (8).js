@@ -8,18 +8,19 @@ var estado;
 laEdad=edad.value;
 estado=estadoCivil.value;
 
-if(laEdad<18)
-	if(estado="Casado" && estado="Divorciado")
-	{
-
-	}
-
 if(laEdad<17)
-	if(estado="Soltero")
+	if(estado=="Soltero")
 	{
-		alert("Es soltero y no es menor");
+		alert("Es soltero y no es menor.");
 	}
-
+	if(estado=="Casado")
+	{
+	
+	}
+	if(estado=="Divorciado")
+	{
+	
+	}
 
 
 	
