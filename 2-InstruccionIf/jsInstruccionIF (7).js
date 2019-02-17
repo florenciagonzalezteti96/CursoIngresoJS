@@ -20,4 +20,4 @@ if(laEdad<18 && (estado!="Soltero"))//resuelvo la igualdad y la negacion todo en
 	alert ("Es muy pequeño para NO ser soltero.");
 }
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN 

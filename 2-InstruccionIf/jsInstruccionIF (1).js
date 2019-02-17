@@ -16,4 +16,4 @@ if(laEdad==15)
 	"""		   logicos: &&,!(no),||(o inclusiva)
 */
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN  

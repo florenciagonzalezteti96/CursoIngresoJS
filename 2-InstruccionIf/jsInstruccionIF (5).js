@@ -24,4 +24,4 @@ if(!(laEdad>=13 && laEdad<=17))
 	alert("No es adolescente."); --> HAGO MENOS OPERACIONES CON ESTA OPCION.
 }*/
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN 

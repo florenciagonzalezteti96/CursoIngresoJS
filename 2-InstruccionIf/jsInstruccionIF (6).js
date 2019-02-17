@@ -35,4 +35,4 @@ if(laEdad>=18)
 }
 
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN 
