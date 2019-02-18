@@ -16,11 +16,13 @@ function mostrar()
 	{
 		alert(""+numUno+""+numDos);
 	}
-
-	if(numUno>numDos)
+	else
 	{
-		resta=numUno-numDos;
-		alert(resta);
+		if(numUno>numDos)
+		{
+			resta=numUno-numDos;
+			alert(resta);
+		}
 	}
 
 	else
@@ -31,5 +33,12 @@ function mostrar()
 		{
 			alert("La suma es "+suma+" y supero el 10.");
 		}
+		else
+		{
+			alert(""+suma);
+		}
 
 	}
+
+}
+
