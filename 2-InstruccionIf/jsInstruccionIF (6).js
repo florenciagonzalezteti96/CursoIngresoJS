@@ -18,20 +18,20 @@ if(laEdad<13)
 */
 
 var laEdad;
-var laEdad=edad.value;
+ laEdad=edad.value;
+ laEdad=parseInt(laEdad);
 
-if(laEdad>=18)
+ if(laEdad<18 && laEdad>12)
+ {
+	alert("Usted es un/a adolescente.");
+ }
+if(laEdad>17)
 {
-	alert("Es mayor de edad.");
-	
-	if(laEdad<13)
-		alert("Es un niño.");
-	else
-	{
-		alert("Es adolescente");
-	}
-
-	
+	alert("Usted es mayor de edad.");
+}
+if(laEdad<13)
+{
+	alert("Usted es un/a niño/a.");
 }
 
 
