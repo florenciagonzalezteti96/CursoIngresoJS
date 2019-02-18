@@ -1,0 +1,43 @@
+SIMULACRO DE EXAMEN PARCIAL 3
+
+/*Al realizar una compra, si compra de mas de dos 
+productos se realiza un descuento del 10% y si 
+supera los $2000 se agrega un descuento adicional
+de 15%, si el pago es con tarjeta y no efectivo 
+al precio final se le agrega un 10% de recargo.*/
+
+function mostrar()
+{
+	var productos;
+	var precio;
+	var metodoPago;
+	var descuentoUno;
+	var descuentoUnoFinal;
+	var descuentoDos;
+	var descuentoDosFinal;
+
+	productos=prompt("Por favor, ingrese la cantidad de productos a comprar:");
+	precio=prompt("Ahora ingrese el costo final de su compra:");
+	metodoPago=prompt("Aclare si paga con tarjeta o efectivo:");
+
+	productos=parseInt(productos);
+	precio=parseInt(precio);
+
+	if(productos>2)
+	{
+		descuentoUno=precio*10/100;
+		descuentoUnoFinal=precio-descuentoUno;
+		alert("Su precio final es de "+descuentoUnoFinal);
+	}
+	else
+	{
+		if(precio>2000)
+		{
+			descuentoDos=precio*15/100;
+			descuentoDosFinal=precio-descuentoDos;
+			alert("Su precio final es de"+descuentoDosFinal);
+		}
+	}
+		
+
+}
