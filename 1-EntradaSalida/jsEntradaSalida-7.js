@@ -4,85 +4,69 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var numUno;
-	var numDos;
+	var uno;
+	var dos;
 	var sumar;
 
-	numUno=numeroUno.value;
-	numDos=numeroDos.value;
+	uno=numeroUno.value;
+	dos=numeroDos.value;
 
+	uno=parseInt(uno);
+	dos=parseInt(dos);
 
+	sumar=uno+dos;
 
-	numUno= parseInt(numUno);	
-	numDos= parseInt(numDos);
-	
-  
+	alert(sumar);
 
-    sumar=numUno+numDos;
-
-	alert ("la suma es: " + sumar);
 }
 
 function restar()
 {
-	var numUno;
-	var numDos;
+	var uno;
+	var dos;
 	var restar;
 
-	numUno=numeroUno.value;
-	numDos=numeroDos.value;
+	uno=numeroUno.value;
+	dos=numeroDos.value;
 
+	uno=parseInt(uno);
+	dos=parseInt(dos);
 
+	restar=uno-dos;
 
-	numUno= parseInt(numUno);	
-	numDos= parseInt(numDos);
-	
-  
-
-    restar=numUno-numDos;
-
-	alert ("la resta es: " + restar);
+	alert(restar);
 }
 
 function multiplicar()
 { 
-	var numUno;
-	var numDos;
+	var uno;
+	var dos;
 	var multiplicar;
 
-	numUno=numeroUno.value;
-	numDos=numeroDos.value;
+	uno=numeroUno.value;
+	dos=numeroDos.value;
 
+	uno=parseInt(uno);
+	dos=parseInt(dos);
 
+	multiplicar=uno*dos;
 
-	numUno= parseInt(numUno);	
-	numDos= parseInt(numDos);
-	
-  
-
-    multiplicar=numUno*numDos;
-
-	alert ("el resultado es: " + multiplicar);
+	alert(multiplicar);
 }
 
 function dividir()
 {
-	var numUno;
-	var numDos;
+	var uno;
+	var dos;
 	var dividir;
 
-	numUno=numeroUno.value;
-	numDos=numeroDos.value;
+	uno=numeroUno.value;
+	dos=numeroDos.value;
 
+	uno=parseInt(uno);
+	dos=parseInt(dos);
 
+	dividir=uno/dos;
 
-	numUno= parseInt(numUno);	
-	numDos= parseInt(numDos);
-	
-  
-
-    dividir=numUno/numDos;
-
-	alert ("el resultado es: " + dividir);
+	alert(dividir);
 }
-
