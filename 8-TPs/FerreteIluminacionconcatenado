@@ -1,4 +1,6 @@
-/*4.	Para el departamento de iluminación:
+TP FERRETE ILUMINACION CON EL IF/ELSE CONCATENADO.
+
+Para el departamento de iluminación:
 Tomando en cuenta que todas las lámparas están en oferta al 
 mismo precio de $35 pesos final.
 A.	Si compra 6 o más  lamparitas bajo consumo tiene un descuento del 50%. 
@@ -18,7 +20,7 @@ mensaje:
  */
 function CalcularPrecio () 
 {
-/*
+
 var cantidadLamparas;
 var marca;
 var precioDescuento;
@@ -100,7 +102,6 @@ if(descuentoFinal>120)
 {
 	aumento=descuentoFinal*10/100;
 	alert("IIBB Usted pago $"+aumento);
-}*/
-
+}
 
 }
