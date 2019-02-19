@@ -38,6 +38,11 @@ precio=cantidadLamparas*35;
 descuento=parseInt(descuento);
 descuentoFinal=parseInt(descuentoFinal);
 
+if(cantidadLamparas>=6)
+{
+	descuento=50;
+}
+
 switch(cantidadLamparas)
 {
 	case 5:
@@ -49,9 +54,7 @@ switch(cantidadLamparas)
 		{
 			descuento=30;
 		}
-
-	break;
-
+			break;
 	case 4:
 		if (marca=="ArgentinaLuz" || "FelipeLamparas")
 		{
@@ -61,9 +64,8 @@ switch(cantidadLamparas)
 		{
 			descuento=20;
 		}
-
+			break;
 	case 3:
-
 		if(cantidadLamparas==3)
 		{
 			if(marca=="ArgentinaLuz")
@@ -80,14 +82,10 @@ switch(cantidadLamparas)
 				{
 					descuento=5;
 				}
-	break;
+				break;
+			}
+		}				
 
-
-}
-
-if(cantidadLamparas>=6)
-{
-	descuento=50;
 }
 
 descuento=precio*descuento/100;
