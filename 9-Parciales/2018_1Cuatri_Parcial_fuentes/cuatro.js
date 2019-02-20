@@ -23,22 +23,19 @@ function mostrar()
 			resta=numUno-numDos;
 			alert(resta);
 		}
-	}
-
-	else
-	{
-		suma=(numUno)+(numDos);
-
-		if(suma>10)
-		{
-			alert("La suma es "+suma+" y supero el 10.");
-		}
 		else
 		{
+			suma=(numUno)+(numDos);
 			alert(""+suma);
-		}
 
+			if(suma>10)
+			{
+				alert("La suma es "+suma+" y supero el 10.");
+			}
+
+		}
 	}
 
-}
+	
 
+}
