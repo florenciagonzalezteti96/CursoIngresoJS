@@ -70,7 +70,7 @@ function mostrar()
 	}
 
 	document.getElementById('maximo').value=maximo;
-	documento.getElementById('minimo').value=minimo;
+	document.getElementById('minimo').value=minimo;
 
 
 
