@@ -50,6 +50,7 @@ function mostrar()
 	var maximo;
 	var minimo;
 	var flag=false;
+	var cantidad;
 	var respuesta='si';
 
 	while(respuesta!='no')
