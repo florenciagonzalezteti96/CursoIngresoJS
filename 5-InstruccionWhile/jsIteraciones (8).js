@@ -12,7 +12,7 @@ function mostrar()
 	{
 		numero=prompt("Ingrese un numero:");
 		numero=parseInt(numero);
-		if(numero>0)
+		if(numero>=0)
 		{
 			acumuladorPositivos=acumuladorPositivos+numero;	
 			document.getElementById('suma').value=acumuladorPositivos;
