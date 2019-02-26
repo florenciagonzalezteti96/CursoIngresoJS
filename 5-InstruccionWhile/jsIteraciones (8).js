@@ -32,3 +32,4 @@ function mostrar()
 //document.getElementById('producto').value=acumuladorNegativos;
 
 }//FIN DE LA FUNCIÓN
+
