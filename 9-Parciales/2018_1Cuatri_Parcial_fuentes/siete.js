@@ -6,12 +6,10 @@ function mostrar()
 	var notaMasBaja;
 	var sexoNotaMasBaja;
 	var contadorVaronesNotasAltas=0;
-	var contadorNotas=0;
 	var acumuladorNotas=0;
 	var contador=0;
 	
 	var promedioNotasTotales;
-	var respuesta=true;
 	var flag=false;
 
 	while(contador<5)
@@ -36,25 +34,26 @@ function mostrar()
 		}
 
 		//***calculo de la nota mas baja y su sexo.
-		if(flag==false || nota<notaMasBaja)
+		while(flag==false || nota<notaMasBaja)
 		{
 			notaMasBaja=nota;
 			sexoNotaMasBaja=sexo;
+			flag=true;
 		}
 		//***calculo la cantidad de varones aprobados.
 
-		if(flag==false || (nota>=6 && sexo=="m"))
+		if(nota>=6 && sexo=="m")
 		{
-			contadorVaronesNotasAltas=contadorVaronesNotasAltas+1;
-			flag=true;
+			contadorVaronesNotasAltas++;
+			
 		}
 		//**cierre del while
+		
 		contador++;
-		contador=parseInt(contador);
 	}
+	
 
 	promedioNotasTotales=acumuladorNotas/contador;
 	alert("El promedio de notas totales es de "+promedioNotasTotales+". La nota mas baja y el sexo de esa persona son "+notaMasBaja+" y "+sexoNotaMasBaja+". La cantidad de varones con nota mayor o igual a 6 es de "+contadorVaronesNotasAltas);
 
 }
-
